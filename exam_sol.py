@@ -351,6 +351,9 @@ if __name__ == '__main__':
             "Resilient variant: after the last operation, an adversary replaces the last chosen number with a value "
             "between 1 and 10 to maximize the distance from the goal. Choose a strategy that minimizes that worst-case distance."
         )
+        prompt = (
+            "Counting game and Resilient variant"
+        )
         print(prompt)
         print("---")
 
